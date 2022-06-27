@@ -1,4 +1,5 @@
---// Setting \\--
+if game.Players.LocalPlayer.BackPack:FindFirstChild("sword") then
+Setting \\--
 local range = 9999999
 
 --// Variable \\--
@@ -22,3 +23,4 @@ game:GetService("RunService").RenderStepped:Connect(function()
         end
     end
 end)
+end
